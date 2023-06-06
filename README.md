@@ -2,6 +2,9 @@
 
 ![logo](mochi-img.png)
 
+## Preamble
+This is a branch of shogunlab's Mochi. The purpose of this branch was to improve the OPSEC of Mochi, as to make changes to the code that were being done manually before. All credit goes to shogunlab.
+
 ## Overview
 Mochi is a proof-of-concept C++ loader that leverages the [ChaiScript](https://chaiscript.com/) embedded scripting language to execute code. It is based on the [lcscript](https://github.com/domzigm/lcscript) project that extends ChaiScript with native Windows API call support. Mochi was built to allow remote loading of ChaiScript files that orchestrate lower level code and execute offensive actions with the Windows API.
 
